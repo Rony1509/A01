@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 120px 16px 120px;
+}
+
+nav img {
+    width: 139px;
+    height: 60px;
+}
+
+.earlyAccessBtn {
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.earlyAccessBtn:hover {
+    background-color: #28a75c;
+}
+
+.navLinks {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navLinks a:hover {
+    color: #37ab48;
+    /* font-weight: 600; */
+
+}
+
+.hero-parent {
+    background-image: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 120px 100px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroBtn1 {
+    width: 229px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: white;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.heroBtn1:hover {
+    color: #268f52;
+    font-weight: 600;
+
+}
+
+.banner-title {
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    width: 770px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.highText {
+    color: #30B868;
+
+}
+
+.banner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 645px;
+
+}
+
+.heroBtn-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.heroBtn2 {
+    display: flex;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    /* font-size: 16px; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.heroBtn2:hover {
+    background-color: #28a75c;
+
+}
+
+.heroBtn3 {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    /* font-size: 16px; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    gap: 8px;
+
+}
+
+.heroBtn3:hover {
+    background-color: #4c4c4c;
+
+}
+
+/* notes section css */
+.notes-section {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+
+.notes-text {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.notes-card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 44px;
+    ;
+}
+
+.notes-card {
+
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap: 10px;
+
+}
+
+.notes-card:hover {
+    box-shadow: 0 16px 40px #0000001F;
+}
+
+.notes-card h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.notes-card img {
+    /* Stack */
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: #F95555;
+    padding: 10px;
+}
+
+.notes-card p {
+    text-align: center;
+    color: #627382;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.second-brain-section {
+    display: flex;
+    gap: 60px;
+    padding: 100px 120px 100px 120px;
+}
+
+.brain-container {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brain1stP {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #469165;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brain-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-style: Bold;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.brain2ndP {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.brain-container ul {
+    list-style: none;
+    padding-top: 40px;
+}
+
+.brain-container ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #001931;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    gap: 6px;
+    padding-bottom: 16px;
+}
+
+.early-access-section {
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px 120px;
+}
+
+.early-access-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #001931;
+    font-weight: 700;
+    font-style: bold;
+    padding-top: 80px;
+}
+
+.early-access-p1 {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+}
+
+.early-access-p2 {
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+
+.footer-container {
+    background-color: #001931;
+
+}
+
+.footer-p1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin: 0 auto;
+    padding-right: 140px;
+    padding-left: 120px;
+}
+
+.footer-p1 h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.social {
+    gap: 4px;
+    justify-content: space-between;
+
+}
+
+.social-icons {
+    padding-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons img {
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-p2 {
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.footer-divider {
+    width: 1360px;
+    border-top: 1px solid #E5E7EB;
+    opacity: 0.2;
+    margin: 80px auto 0;
+}
